@@ -1,6 +1,7 @@
 blib*
 Makefile
 Makefile.old
+MANIFEST.bak
 Build
 Build.bat
 _build*
@@ -17,3 +18,5 @@ META.yml
 tags
 html
 man
+*~
+*.swp
