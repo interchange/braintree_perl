@@ -1,26 +1,19 @@
-Net-Braintree
+Net::Braintree
 
-This library is deprecated; current integrations are supported,
-but no new feature development is planned at this time. For more
-details visit the following URL:
+Braintree considers this library to be deprecated; current integrations
+are supported, but no new feature development is planned at this time. For
+more details visit the following URL:
 
 https://support.braintreepayments.com/customer/portal/articles/1763061-status-of-the-perl-client-library
 
-You can find a community supported fork of this library at:
+Some active users of this module are maintaining this fork focused on
+stability and minimal changes needed for bug fixes and missing features:
+
+https://github.com/interchange/braintree_perl
+
+Another community fork has renamed and greatly remodeled the module:
 
 https://metacpan.org/pod/WebService::Braintree
-
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
-
 
 INSTALLATION
 
@@ -40,8 +33,11 @@ perldoc command.
 
 You can also look for information at:
 
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-Braintree
+    GitHub fork maintaining Net::Braintree
+        https://github.com/interchange/braintree_perl
+
+    RT, CPAN's request tracker (Braintree has ignored bug reports here)
+        https://rt.cpan.org/Public/Dist/Display.html?Name=Net-Braintree
 
     AnnoCPAN, Annotated CPAN documentation
         http://annocpan.org/dist/Net-Braintree
@@ -49,8 +45,8 @@ You can also look for information at:
     CPAN Ratings
         http://cpanratings.perl.org/d/Net-Braintree
 
-    Search CPAN
-        http://search.cpan.org/dist/Net-Braintree/
+    MetaCPAN
+        https://metacpan.org/pod/Net::Braintree
 
 OPEN SOURCE ATTRIBUTION
 
@@ -66,4 +62,3 @@ under the terms of either: the GNU General Public License as published
 by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
-

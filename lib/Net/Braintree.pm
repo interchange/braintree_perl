@@ -37,18 +37,21 @@ Net::Braintree - A Client Library for wrapping the Braintree Payment Services Ga
 
 =head1 VERSION
 
-Version 0.30.0
+Version 0.31.0
 
 =head1 DEPRECATED
 
-This library is deprecated; current integrations are supported, but no new feature development is planned at this time.
+Braintree considers this library deprecated.
+
+We are maintaining this fork focused on stability, to fix bugs and add missing features.
+
 For more details see: L<https://support.braintreepayments.com/customer/portal/articles/1763061-status-of-the-perl-client-library>
 
-You can find a community supported fork of this library at: L<https://metacpan.org/pod/WebService::Braintree>
+You can find another community supported fork of this library at: L<https://metacpan.org/pod/WebService::Braintree>
 
 =cut
 
-our $VERSION = '0.30.0';
+our $VERSION = '0.31.0';
 
 my $configuration_instance = Net::Braintree::Configuration->new;
 
@@ -65,9 +68,13 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * GitHub fork maintaining Net::Braintree
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-Braintree>
+L<https://github.com/interchange/braintree_perl>
+
+=item * RT, CPAN's request tracker (Braintree has ignored bug reports here)
+
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=Net-Braintree>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
@@ -77,9 +84,9 @@ L<http://annocpan.org/dist/Net-Braintree>
 
 L<http://cpanratings.perl.org/d/Net-Braintree>
 
-=item * Search CPAN
+=item * MetaCPAN
 
-L<http://search.cpan.org/dist/Net-Braintree/>
+L<https://metacpan.org/pod/Net::Braintree>
 
 =back
 

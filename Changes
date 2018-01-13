@@ -1,4 +1,12 @@
 Revision history for Net-Braintree
+0.31.0  2018-01-12
+        Continue development of original Net::Braintree module that Braintree has stopped supporting.
+        Add support for TestTransaction routines.
+        Add support for options or amount in refund.
+        Teach Net::Braintree::Validations the skip_advanced_fraud_checking option.
+        Allow sending 0 values via web service.
+        Expose dependency on CGI (fixes RT #113910)
+        Update MANIFEST (fixes RT #98884)
 0.30.0  04/10/17
         Export Net::Braintree::ClientToken (thanks @msjohns1!)
         Note community fork in documentation
