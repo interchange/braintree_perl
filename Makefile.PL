@@ -6,6 +6,7 @@ author   q{Braintree, a division of PayPal, Inc. <support@getbraintree.com>};
 license  'perl';
 abstract       'This library provides an API for integration with the Braintree Payment Gateway';
 
+requires       'CGI';
 requires       'Data::GUID';
 requires       'DateTime';
 requires       'DateTime::Format::Atom';
